@@ -285,7 +285,7 @@ jobs:
           mkdir -p package
 
 
-          cp -r "$BUILD_DIRECTORY"/* package/
+           cp -r dist/* package/
 
 
           echo "${{ needs.prepare.outputs.app_version }}" \
