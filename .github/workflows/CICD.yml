@@ -50,9 +50,9 @@ on:
 
 env:
 
-  APP_NAME: ${{ vars.APP_NAME }}
-  NODE_VERSION: ${{ vars.NODE_VERSION }}
-  BUILD_DIRECTORY: ${{ vars.BUILD_DIRECTORY }}
+  APP_NAME: ${{ env.APP_NAME }}
+  NODE_VERSION: ${{ env.NODE_VERSION }}
+  BUILD_DIRECTORY: ${{ env.BUILD_DIRECTORY }}
 
 
 # =========================================================
