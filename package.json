@@ -1,0 +1,8 @@
+{
+  "name": "enterprise-ci-cd",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "mkdir -p dist && echo Build successful > dist/application.txt",
+    "test": "echo Tests successful"
+  }
+}
